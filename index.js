@@ -20,5 +20,5 @@ function clean(){
 }
 
 function backspace(){
-    display.value = result.value.slice(0,-1)
+    display.value = display.value.slice(0,-1)
 }
