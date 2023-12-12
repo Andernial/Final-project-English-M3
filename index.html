@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 <body>
-    
+    <main>
+        <div class="line">
+            <input type="text">
+        </div>
+        <div class="line">
+            <button type="button" onclick="clean()" class="btn">C</button>
+            <button type="button" onclick="backspace()" class="btn">CE</button>
+            <button type="button" onclick="addNumber()" class="btn">/</button>
+        </div>
+        <div class="line">
+            <button type="button" onclick="addNumber()" class="btn">7</button>
+            <button type="button" onclick="addNumber()" class="btn">8</button>
+            <button type="button" onclick="addNumber()" class="btn">9</button>
+            <button type="button" onclick="addNumber()" class="btn">X</button>
+        </div>
+        <div class="line">
+            <button type="button" onclick="addNumber()" class="btn">4</button>
+            <button type="button" onclick="addNumber()" class="btn">5</button>
+            <button type="button" onclick="addNumber()" class="btn">6</button>
+            <button type="button" onclick="addNumber()" class="btn">-</button>
+        </div>
+        <div class="line">
+            <button type="button" onclick="addNumber()" class="btn">1</button>
+            <button type="button" onclick="addNumber()" class="btn">2</button>
+            <button type="button" onclick="addNumber()" class="btn">3</button>
+            <button type="button" onclick="addNumber()" class="btn">+</button>
+        </div>
+        <div class="line">
+            <button type="button" onclick="addNumber()" class="btn">.</button>
+            <button type="button" onclick="addNumber()" class="btn">0</button>
+            <button type="button" onclick="calculate()" class="btn">=</button>
+        </div>
+    </main>
 </body>
 </html>
