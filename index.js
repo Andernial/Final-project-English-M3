@@ -17,6 +17,7 @@ function addNumber(number) {
 function calculate(){
     if(display.value){
         try {
+            display.placeholder=''
             display.value = eval(display.value)
         } catch (error) {
             display.value = ''
