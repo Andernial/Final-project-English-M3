@@ -30,9 +30,11 @@ function calculate(){
 
 
 function clean(){
+    display.placeholder='0'
     display.value = ''
 }
 
 function backspace(){
+    display.placeholder='0'
     display.value = display.value.slice(0,-1)
 }
