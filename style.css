@@ -1,5 +1,6 @@
 body {
-    background-color: #000;
+    
+    background: radial-gradient(circle, rgba(87,19,141,1) 0%, rgba(50,14,38,1) 100%);
     color: #fff;
     font-family: Arial, sans-serif;
     display: flex;
@@ -36,6 +37,7 @@ main {
 
 .btn:hover {
     background-color: #0056b3;
+    
 }
 #display {
     background-color: #000000;
